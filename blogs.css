@@ -1,0 +1,29 @@
+:root {
+  --background: #d5ccba;
+  --color: #20111b;
+
+  --accent1: #494904;
+  --accent2: #696904;
+  --accent3: #b29c70;
+  --accent4: #3c3c02;
+  --accent5: #e8d589;
+
+  --backgroundlight: #ebe5d8;
+  --backgrounddark: #cac09e;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #1c1815;
+    --color: #dedec0;
+
+    --accent1: #929a6c;
+    --accent2: #777741;
+    --accent3: #465224;
+    --accent4: #b2b97a;
+    --accent5: #492c06;
+
+    --backgroundlight: #090909;
+    --backgrounddark: #2f241a;
+  }
+}

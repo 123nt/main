@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Accessibility - Nitish</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+
+    <link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <div id="top"></div>
+    <div id="container">
+      <div id="menu-bar">
+        <nav id="main-navigation">
+          <ul class="left">
+            <li><a href="potfolio.html">Home</a></li>
+            <li>
+              <a href="blog.html">Blog</a>
+            </li>
+            <li>
+              <a href="my-books.html"> books</a>
+            </li>
+          </ul>
+
+          <div id="logo" aria-hidden="true"></div>
+          <ul class="right">
+            <li><a href="about.html">About</a></li>
+
+            <li>
+              <a href="Newsletter.html">Newsletter</a>
+            </li>
+            <li><a href="Links.html">Links</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <main id="content">
+        <article>
+          <h1 id="title">Accessibility</h1>
+          <p>
+            I design with an accessibility-first approach whenever possible. I
+            do my best to meet the
+            <a href="https://www.w3.org/WAI/standards-guidelines/wcag/"
+              >Web Content Accessibility Guidelines</a
+            >
+            at the AA/AAA level. Feel free to send me any feedback or
+            suggestions for improvement!
+          </p>
+
+          <h2 id="summary">Main points</h2>
+          <ul>
+            <li>
+              Works on any screen resolution (including mobile and when zoomed
+              in and out) and any modern browser
+            </li>
+            <li>Entirely navigable via keyboard and/or screen reader</li>
+            <li>Doesn't use Javascript</li>
+          </ul>
+
+          <h2 id="extras">Additional stuff</h2>
+          <ul>
+            <li>
+              Page colors will automatically switch between light and dark mode
+              depending on device settings.
+            </li>
+            <li>
+              Pages <em>should</em> work in browser reader mode, but there is no
+              standard for reader mode implementation, so some things might not
+              behave as expected. For transparency, I test reader mode on
+              Firefox and mobile Safari. If you use a different browser and
+              something turns up weird, let me know and I'll look into it.
+            </li>
+            <li>
+              I don't use animated GIFs outside of a small number of buttons on
+              the links page. If a button can be converted to a static image, I
+              use the static version.
+            </li>
+            <li>
+              I compress images as much as possible to reduce loading times.
+            </li>
+            <li>
+              Website is all about explore and find new things and learn......
+            </li>
+          </ul>
+        </article>
+
+        <!-- footer -->
+        <footer id="main-footer">
+          <nav>
+            <p>
+              this website is licensed under the
+              <a href="licence.html">GNU General Public License</a>.
+            </p>
+            <p>
+              <!--instagram link --><a href="">instagram</a>
+              <span aria-hidden="true">&bull;</span>
+              <a href="https://in.pinterest.com/nitishthapa000/_created/"
+                >pintrest</a
+              >
+              <span aria-hidden="true">&bull;</span>
+              <a href="accessibility.html">Accessibility</a>
+            </p>
+            <p>
+              <a href="#top">Back to top</a>
+              <span aria-hidden="true">&bull;</span>
+            </p>
+          </nav>
+        </footer>
+      </main>
+    </div>
+  </body>
+</html>
